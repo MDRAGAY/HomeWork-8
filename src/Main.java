@@ -2,8 +2,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Задача1");
         int[] cars = new int[3];
-        for (int i = 0; i < cars.length; i++) {
-            cars[i] = i + 1;}
+        cars[0] = 1;
+        cars[1] = 2;
+        cars[2] = 3;
 
         double[] nums = {1.57, 7.654, 9.986};
 
@@ -30,6 +31,29 @@ public class Main {
                 System.out.print(", ");
             }
         }
+        System.out.println();
+        System.out.println("Задача3");
+        for (int i = cars.length - 1; i >= 0; i--) {
+            System.out.print(cars[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = nums.length - 1; i >= 0; i--) {
+            System.out.print(nums[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = booleans.length - 1; i >= 0; i--) {
+            System.out.print(booleans[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+
 
 
     }
