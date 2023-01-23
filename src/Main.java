@@ -9,6 +9,27 @@ public class Main {
 
         boolean[] booleans = {true, false};
 
+        System.out.println("Задача2");
+        for (int i = 0; i < cars.length; i++) {
+            System.out.print(cars[i]);
+            if (i != cars.length -1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i]);
+            if (i != nums.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < booleans.length; i++) {
+            System.out.print(booleans[i]);
+            if (i != booleans.length - 1) {
+                System.out.print(", ");
+            }
+        }
 
 
     }
